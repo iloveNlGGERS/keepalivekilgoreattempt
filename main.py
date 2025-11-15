@@ -28,7 +28,7 @@ logging.getLogger('discord.http').setLevel(logging.CRITICAL)
 logging.getLogger('discord.gateway').setLevel(logging.CRITICAL)
 logging.getLogger('discord.client').setLevel(logging.CRITICAL)
 
-token = "MTQzNDc1MjU1MTE2NDcwNjg2Ng.GqZWcM.I5_l4gpgxPvGgT0dN_apkbWs3_CpjoErRqRSNo"
+token = "MTQzNDc1MjU1MTE2NDcwNjg2Ng.GwxVD5.pha1LFBTYHp8M1qujw0am0YvvaY_hqKVH1uT74"
 partsimagepath = "Parts/Parts"
 mainpath = "base.jpg"
 bot = Bot(command_prefix='~', description="nothing", help_command=None, intents=discord.Intents.all())
@@ -207,3 +207,4 @@ except Exception as e:
 
 
     print("Token failed")
+
