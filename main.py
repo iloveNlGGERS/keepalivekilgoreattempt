@@ -28,9 +28,9 @@ logging.getLogger('discord.http').setLevel(logging.CRITICAL)
 logging.getLogger('discord.gateway').setLevel(logging.CRITICAL)
 logging.getLogger('discord.client').setLevel(logging.CRITICAL)
 
-token = input('Enter token : ')
+token = "MTQzNDc1MjU1MTE2NDcwNjg2Ng.GqZWcM.I5_l4gpgxPvGgT0dN_apkbWs3_CpjoErRqRSNo"
 partsimagepath = "Parts/Parts"
-mainpath = input("Go in your file explorer and go inside the folder of this app then right click base.jpg and copy as path and paste it here Ctrl + Shift + V : ")
+mainpath = "base.jpg"
 bot = Bot(command_prefix='~', description="nothing", help_command=None, intents=discord.Intents.all())
 imagecalls = {
     #table made by Brok as always gideon on top? (kilgore)
@@ -204,5 +204,6 @@ try:
     bot.run(token)
 
 except Exception as e:
+
 
     print("Token failed")
